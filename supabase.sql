@@ -55,8 +55,8 @@ create policy "alle lesen" on public.photos
 
 create policy "nur ich aendert" on public.photos
   for all to authenticated
-  using ((auth.jwt() ->> 'email') = 'a_t_f@outlook.de')
-  with check ((auth.jwt() ->> 'email') = 'a_t_f@outlook.de');
+  using ((auth.jwt() ->> 'email') = 'fichter_alexander@icloud.com')
+  with check ((auth.jwt() ->> 'email') = 'fichter_alexander@icloud.com');
 
 -- 3) Speicher für die Bilddateien
 insert into storage.buckets (id, name, public)
@@ -73,12 +73,12 @@ create policy "bilder lesen" on storage.objects
 
 create policy "bilder hochladen" on storage.objects
   for insert to authenticated
-  with check (bucket_id = 'photos' and (auth.jwt() ->> 'email') = 'a_t_f@outlook.de');
+  with check (bucket_id = 'photos' and (auth.jwt() ->> 'email') = 'fichter_alexander@icloud.com');
 
 create policy "bilder aendern" on storage.objects
   for update to authenticated
-  using (bucket_id = 'photos' and (auth.jwt() ->> 'email') = 'a_t_f@outlook.deE');
+  using (bucket_id = 'photos' and (auth.jwt() ->> 'email') = 'fichter_alexander@icloud.com');
 
 create policy "bilder loeschen" on storage.objects
   for delete to authenticated
-  using (bucket_id = 'photos' and (auth.jwt() ->> 'email') = 'a_t_f@outlook.de');
+  using (bucket_id = 'photos' and (auth.jwt() ->> 'email') = 'fichter_alexander@icloud.com');
