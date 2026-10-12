@@ -10,7 +10,7 @@ window.SITE_CONFIG = {
   supabaseAnonKey: "sb_publishable_29TK9hJ-e8e4eW9rp_eA8A__EHL2Kga",
 
   /* Name und Texte */
-  name: "Dein Name",
+  name: "A T Fichter",
   title: "Analoge Fotografie",
   headline: ["Analoge", "Fotografie"],
   tagline: "Aufnahmen auf Film, entwickelt und gescannt.",
@@ -38,7 +38,7 @@ window.SITE_CONFIG = {
 
   /* Kontakt (die E-Mail wird auch für den Kaufen-Knopf benutzt) */
   contactText: "Du interessierst dich für ein Bild oder hast eine Frage? Schreib mir.",
-  mail: "deine@mail.de",
+  mail: "a_t_f@outlook.de",
   links: [
     /* { label: "Instagram", url: "https://www.instagram.com/deinname" } */
   ],
