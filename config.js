@@ -6,11 +6,11 @@
 window.SITE_CONFIG = {
 
   /* PFLICHT: aus Supabase (Project Settings → API) */
-  supabaseUrl: "https://owbbsnujnkhyyqvagtai.supabase.co",
-  supabaseAnonKey: "sb_publishable_29TK9hJ-e8e4eW9rp_eA8A__EHL2Kga",
+  supabaseUrl: "https://DEIN-PROJEKT.supabase.co",
+  supabaseAnonKey: "DEIN-ANON-KEY",
 
   /* Name und Texte */
-  name: "A T Fichter",
+  name: "Dein Name",
   title: "Analoge Fotografie",
   headline: ["Analoge", "Fotografie"],
   tagline: "Aufnahmen auf Film, entwickelt und gescannt.",
@@ -25,14 +25,20 @@ window.SITE_CONFIG = {
 
   /* Über mich: jeder Eintrag ist ein Absatz */
   about: [
-    "Vom ersten Klick zur echten Leidenschaft – Analoge Fotografie im Wandel der Zeit.
-,]
+    "Hier steht ein kurzer Text über dich und deine Fotografie.",
+    "Ein zweiter Absatz, wenn du magst."
+  ],
 
   /* Angaben rechts neben dem Text: ["Name", "Wert"] */
- 
+  facts: [
+    ["Kamera", "Deine Kamera"],
+    ["Film", "Deine Filme"],
+    ["Entwicklung", "Selbst entwickelt"]
+  ],
+
   /* Kontakt (die E-Mail wird auch für den Kaufen-Knopf benutzt) */
   contactText: "Du interessierst dich für ein Bild oder hast eine Frage? Schreib mir.",
-  mail: "a_t_f@outlook.de",
+  mail: "deine@mail.de",
   links: [
     /* { label: "Instagram", url: "https://www.instagram.com/deinname" } */
   ],
