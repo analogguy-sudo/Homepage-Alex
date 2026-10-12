@@ -7,8 +7,8 @@ window.SITE_CONFIG = {
 
   /* --- Supabase: siehe ANLEITUNG.md, Schritt 4 --- */
   /* Der "anon"/"publishable" Schlüssel ist öffentlich gedacht. Den geheimen "service_role"-Schlüssel hier NIEMALS eintragen. */
-  supabaseUrl: 'https://DEIN-PROJEKT.supabase.co',
-  supabaseAnonKey: 'DEIN-OEFFENTLICHER-SCHLUESSEL',
+  supabaseUrl: 'https://owbbsnujnkhyyqvagtai.supabase.co',
+  supabaseAnonKey: 'sb_publishable_29TK9hJ-e8e4eW9rp_eA8A__EHL2Kga',
 
   /* --- Texte der Seite --- */
   name: 'Name folgt',                      // oben links und in der Fußzeile
