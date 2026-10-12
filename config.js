@@ -6,8 +6,8 @@
 window.SITE_CONFIG = {
 
   /* PFLICHT: aus Supabase (Project Settings → API) */
-  supabaseUrl: "https://DEIN-PROJEKT.supabase.co",
-  supabaseAnonKey: "DEIN-ANON-KEY",
+  supabaseUrl: "https://owbbsnujnkhyyqvagtai.supabase.co",
+  supabaseAnonKey: "sb_publishable_29TK9hJ-e8e4eW9rp_eA8A__EHL2Kga",
 
   /* Name und Texte */
   name: "Dein Name",
